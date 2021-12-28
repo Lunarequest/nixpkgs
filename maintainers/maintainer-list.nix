@@ -7067,6 +7067,12 @@
     githubId = 26020062;
     name = "lumi";
   };
+  lunarequest = {
+     email = "nullrequest@vivaldi.net";
+     github = "Lunarequest";
+     githubId = 30698906;
+     name = "luna";
+  };
   lunik1 = {
     email = "ch.nixpkgs@themaw.xyz";
     matrix = "@lunik1:lunik.one";

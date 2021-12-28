@@ -21183,6 +21183,8 @@ with pkgs;
 
   morty = callPackage ../servers/web-apps/morty { };
 
+  motrix = callPackage ../applications/networking/motrix { };
+  
   mullvad-vpn = callPackage ../applications/networking/mullvad-vpn { };
 
   mycorrhiza = callPackage ../servers/mycorrhiza { };
