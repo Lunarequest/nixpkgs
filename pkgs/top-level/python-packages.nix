@@ -8659,6 +8659,8 @@ in {
 
   rpi-bad-power = callPackage ../development/python-modules/rpi-bad-power { };
 
+  RPi.GPIO = callPackage  ../development/python-modules/RPi.GPIO { };
+
   rply = callPackage ../development/python-modules/rply { };
 
   rpm = toPythonModule (pkgs.rpm.override {
