@@ -12643,6 +12643,7 @@ with pkgs;
 
   jwasm =  callPackage ../development/compilers/jwasm { };
 
+  keymash = callPackage ../os-specific/linux/keymash { };
   knightos-genkfs = callPackage ../development/tools/knightos/genkfs { };
 
   regenkfs = callPackage ../development/tools/knightos/regenkfs { };
